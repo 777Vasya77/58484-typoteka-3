@@ -2,7 +2,7 @@
 
 const api = require(`../api`).getAPI();
 
-const index = async (req, res) => {
+const showMy = async (req, res) => {
   const articles = await api.getArticles();
   res.render(`my`, {articles});
 };
@@ -13,6 +13,6 @@ const showComments = async (req, res) => {
 };
 
 module.exports = {
-  index,
+  showMy,
   showComments,
 };

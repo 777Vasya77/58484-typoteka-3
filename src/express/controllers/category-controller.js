@@ -1,9 +1,9 @@
 'use strict';
 
-const index = (req, res) => {
+const showCategories = (req, res) => {
   res.render(`all-categories`);
 };
 
 module.exports = {
-  index,
+  showCategories,
 };

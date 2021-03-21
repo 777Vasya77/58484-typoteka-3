@@ -3,7 +3,7 @@
 const ReadFileService = require(`../services/read-file-service`);
 const {MOCKS_FILE_NAME} = require(`../../../constants`);
 
-const index = async (req, res) => {
+const showPosts = async (req, res) => {
   const readFileService = new ReadFileService(MOCKS_FILE_NAME);
 
   try {
@@ -18,5 +18,5 @@ const index = async (req, res) => {
 };
 
 module.exports = {
-  index,
+  showPosts,
 };
