@@ -23,3 +23,6 @@ src/express/upload/img/*.*
 
 # Пустой файл для того, чтобы git сохранил папку в системе контроля версий
 !src/express/upload/img/.gitkeep
+
+# Файлы проетров базы данных Navicat Data
+*.ndm2
